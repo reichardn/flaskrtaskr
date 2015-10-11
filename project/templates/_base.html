@@ -10,7 +10,7 @@
 
 			{% for message in get_flashed_messages() %}
 				<div class='flash'>{{message}}</div>
-			{% end for %}
+			{% endfor %}
 			{% if error %}
 				<div class='error'><strong>Error:</strong> {{error}}</div>
 			{% endif %}
